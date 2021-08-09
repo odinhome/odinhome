@@ -1,1 +1,20 @@
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+a{ text-decoration:none; cursor:pointer; transition:all ease-out 150ms; color: #ffe7b4;}
+a:hover{ text-decoration:none;}
+img { border: 0; vertical-align: middle; width: 100%;}
 
+html, body { min-width: 100%; min-height: 100%; background-color: #222; font-family: '微软雅黑', sans-serif;}
+body { font-size: 80%; font-weight: lighter; background: radial-gradient(#1A5970 0%, #000 100%); overflow: hidden;}
+.container { position: absolute; opacity: 1; margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box;}
+canvas { -webkit-filter: drop-shadow(0 0 3em black); filter: drop-shadow(0 0 3em black);}
+video#myVideo { position: absolute; top: 0;}
+
+.website_bg,.website_intr { display:none;}
+.topmain { width: 100%;margin:0 auto;height:90%;padding-top: 40px;box-sizing: border-box; position: absolute; opacity: 1; z-index: 2222;}
+.slogan { width: 12rem;margin:0 auto; left: 50%;}
+.text { text-align: center;font-size: 0;}
+.text p { font-size: 18px;color:#ffe7b4;margin:0 10px;vertical-align: middle; left: 50%;}
+
+.footer { width: 100%; bottom: 10px; text-align: center; position: absolute; opacity: 1; z-index: 2222;}
+.footer p { font-size: 15px;color:#ffe7b4;margin:0 10px;vertical-align: middle; left: 50%;}

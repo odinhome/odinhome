@@ -1,0 +1,47 @@
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+a{ text-decoration:none; cursor:pointer; transition:all ease-out 150ms;}
+a:hover{ text-decoration:none;}
+img {max-width: 100%;}
+
+.rj_body{height: 100%;width: 100%;max-width: 1920px; margin:0 auto;;position: relative; background: #000; }
+#bg{position:fixed;top:-50%;left:-50%;width:200%;height:200%;}
+#bg img{position:absolute; top:0; left:0; right:0; bottom:0; margin:auto; min-width:50%; min-height:50%;}
+
+.text_center,#affiche{ width: 100%; margin: 0 auto; position: absolute;top: 0; left: 50%; transform: translateX(-50%);z-index: 2; background: radial-gradient(#1A5970 0%, #000 100%);}
+.rjbt{ background: url() no-repeat bottom center; text-align: center; margin: 72px auto 0px; font-size: 29px;color: #c9c3bb;
+padding: 0 0 35px 0;}
+.rjbt02{ margin: 20px 0  50px;}
+
+.return {position: absolute; top: 30px; right: 30px; color: #c9c3bb;}
+.con_inner_movie,.con_inner{margin:0 auto;margin-top:-20px;padding-top:20px;width:1200px;background:url() repeat-y;
+padding-bottom:18px; margin-bottom:-18px;position:relative;z-index:30;color: #c9c3bb;line-height: 1.6;}
+.cf:before,
+.cf:after {content:"";display:table;}
+.cf:after {clear:both;}
+div.rule_inner{width:100%;height:auto;margin:0 auto;position:relative;}
+div.rule_inner a{color: #c9c3bb;}
+div.rule_inner h1{font-size: 25px!important;font-weight: bold;text-align: center;position: relative;width: auto;height: auto;padding: 10px 0 30px;
+top: 0;line-height: 24px;text-indent: 0;margin-left: 0;left: 0;}
+div.rule_inner h2{font-size:20px!important;font-weight:bold;text-align:left;position:relative;width:auto;height:auto;padding:10px;top:0;
+line-height:24px;text-indent:0;}
+div.rule_inner h3{font-size:13px;font-weight:bold;width:auto;text-indent:0px;margin:20px 0px;}
+p#adress{margin:20px;}
+div.rule_inner ol,div.rule_inner ul {margin:20px auto;width:90%;}
+div.rule_inner ul li{margin:5px 0px 0px 10px;}
+div.rule_inner ol li{margin:15px 0px 0px 10px;}
+div.rule_inner ol p{margin:10px 20px;}
+div.rule_inner ol p.indent{margin:10px 40px;}
+div.rule_inner ol p.text_right{margin:10px 40px 30px;text-align: right;}
+div.rule_inner ul a:link, div.rule_inner ul a:visited {
+text-decoration:underline!important;}
+div.rule_inner ul a:hover,  div.rule_inner li a:active {text-decoration:underline!important;}
+.rule_inner li a:visited,
+.rule_inner li a:hover,
+.rule_inner li a:active,
+.rule_inner li a:link{text-decoration:underline;}
+.rule_inner li a:hover{
+color:rgb(204,255,255);}
+div.rule_inner ol li{padding-left: 1em;text-indent: -1.5em;margin:5px 0px 0px 10px;}
+.li_font li{ /*font-weight: bold;*/font-size: 16px;}
+.text03 ol li{ text-indent: 0 !important;}
