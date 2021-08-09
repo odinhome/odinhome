@@ -221,7 +221,14 @@ var baseMaterial = new THREE.MeshLambertMaterial({
 
 		if (navigator.getUserMedia) {
 		  navigator.getUserMedia({audio: true, video: true}, function(stream) {
-			video.src = window.URL.createObjectURL(stream);
+
+			  try {
+				  video.src = window.URL.createObjectURL(stream);
+			      } catch (e) {
+					  console.log(e);
+					  video.srcObject = stream;
+                              }
+			  
 		  }, errorCallback);
 		} else {
 		  video.src = 'rin-SD.mp4';
