@@ -220,7 +220,7 @@ var baseMaterial = new THREE.MeshLambertMaterial({
                           navigator.msGetUserMedia;
 
 		if (navigator.getUserMedia) {
-		  navigator.getUserMedia({audio: false, video: true}, function(stream) {
+		  navigator.getUserMedia({audio: false, video: { width: 1280, height: 640 }}, function(stream) {
 
 			  try {
 				  video.src = window.URL.createObjectURL(stream);
