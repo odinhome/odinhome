@@ -1,0 +1,51 @@
+@charset "utf-8";
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5{margin:0;padding:0;}
+ul,ol,li{ list-style:none;}
+a,img,input{border:none;outline:none;}
+a{text-decoration:none; color: #000;}
+img{display:block;}
+
+
+@media screen and (max-width: 800px) {
+    html,body{ padding: 0;}
+    .top_box{ position:fixed;width: 100%;}
+    .content { padding: 1%;}
+    .content h2 { text-align: center;}
+}
+
+@media screen and (min-width: 800px) {
+    html,body{margin: 0 auto; width: 800px;position: relative; padding: 0 1%;}
+    .top_box{ position:fixed;width: 800px;}
+}
+
+.top_box{ height:3.2rem; background: #12141c;top: 0; z-index: 999;}
+.top_box span:first-child{float: left;margin-left: 10px;margin-right: 10px;margin-top: 5px;}
+.top_box span:first-child img{width: 2.5rem;}
+.top_box span:nth-child(2){float: left;color: #fff; padding-left: 0px;/* line-height: 0.9rem; */}
+.top_box span:nth-child(3){color: #fff;position: absolute;top: 1.5rem;left: 3.7rem; }
+.top_box .dh { float: right;  box-sizing: border-box;}
+.top_box .dh img{width: 2.5rem;padding-top: 0.5rem;margin-right: 1rem;}
+
+p img { max-width: 100%;text-align: center;}
+.pages { text-align: center;}
+.content { padding-top: 3.5rem;}
+
+/*funpiclist*/
+@media screen and (max-width: 800px) {
+    .piclist li { width: 49%;}
+}
+
+@media screen and (min-width: 800px) {
+    .piclist li { width: 24%;}
+}
+.funpiclist { flex-shrink: 0; width: 100%; height: 100%; position: relative; transition-property: transform;}
+.piclist { width: 100%;margin: 0.8rem auto 0;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-flex-wrap: wrap;flex-wrap: wrap;-webkit-justify-content: space-between;justify-content:space-between;min-height: 2rem;}
+.piclist li { margin-bottom: 0.3rem;height: 12rem;/*background: url(../images/picbg.png) no-repeat 0 0/100%;*/padding: 0.01rem 0.02rem 0; }
+.piclist li .pic { height:10.5rem;display: -webkit-box;display: -webkit-flex;display: flex;}
+.piclist li .pic img { width: auto;height:auto;max-width: 100%;max-height: 100%;margin:auto;}
+.pictxt { padding: 0.1rem 0.2rem 0;}
+.pictxt h3 { font-size: 0.32rem;text-align: center;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.pictxt p { opacity: 0.7;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+
+/*allfunpiclist*/
+.allfunpiclist { display: none;}
